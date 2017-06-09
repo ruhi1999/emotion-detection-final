@@ -22,7 +22,8 @@ var bot = controller.spawn({
 
 
 console.log('Env token '+process.env.token);
-console.log('Bot token '+bot.token);
+// not working
+// console.log('Bot token '+bot.token);
 
 
 var http = require('http');
